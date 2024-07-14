@@ -1,0 +1,33 @@
+{
+    "properties": {
+        "roleName": "SentinelDeploy",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/XXXX-XXXX-XXXX-XXXX-XXXX"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "*/read",
+                    "Microsoft.Resources/deployments/operationstatuses/read",
+                    "Microsoft.Resources/deployments/write",
+                    "Microsoft.SecurityInsights/ContentPackages/write",
+                    "Microsoft.SecurityInsights/contentTemplates/*",
+                    "Microsoft.SecurityInsights/Metadata/write",
+                    "Microsoft.SecurityInsights/dataConnectors/write",
+                    "Microsoft.Resources/subscriptions/resourceGroups/write",
+                    "Microsoft.Resources/deployments/validate/action",
+                    "Microsoft.OperationalInsights/workspaces/write",
+                    "Microsoft.SecurityInsights/onboardingStates/write",
+                    "Microsoft.OperationsManagement/solutions/write",
+                    "Microsoft.OperationalInsights/workspaces/savedSearches/write",
+                    "Microsoft.SecurityInsights/Watchlists/write",
+                    "Microsoft.OperationalInsights/*"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
