@@ -1,0 +1,48 @@
+{
+    "properties": {
+        "roleName": "MicrosoftSentinelTrainingLabDeploy",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/XXXX-XXXX-XXXX-XXXX-XXXX"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "*/read",
+                    "Microsoft.Resources/deployments/operationstatuses/read",
+                    "Microsoft.Resources/deployments/write",
+                    "Microsoft.SecurityInsights/ContentPackages/write",
+                    "Microsoft.SecurityInsights/contentTemplates/*",
+                    "Microsoft.SecurityInsights/Metadata/write",
+                    "Microsoft.SecurityInsights/dataConnectors/write",
+                    "Microsoft.Resources/subscriptions/resourceGroups/write",
+                    "Microsoft.Resources/deployments/validate/action",
+                    "Microsoft.OperationalInsights/workspaces/write",
+                    "Microsoft.SecurityInsights/onboardingStates/write",
+                    "Microsoft.OperationsManagement/solutions/write",
+                    "Microsoft.OperationalInsights/workspaces/savedSearches/write",
+                    "Microsoft.SecurityInsights/Watchlists/write",
+                    "Microsoft.OperationalInsights/*",
+                    "Microsoft.OperationalInsights/workspaces/listKeys/action",
+                    "Microsoft.Web/connections/Write",
+                    "Microsoft.Resources/deploymentScripts/write",
+                    "Microsoft.Logic/workflows/write",
+                    "Microsoft.Authorization/policies/auditIfNotExists/action",
+                    "Microsoft.Storage/storageAccounts/write",
+                    "Microsoft.Authorization/policies/audit/action",
+                    "Microsoft.Resources/deploymentScripts/read",
+                    "Microsoft.Storage/storageAccounts/listkeys/action",
+                    "Microsoft.ContainerInstance/containerGroups/write",
+                    "Microsoft.ContainerInstance/containerGroups/read",
+                    "Microsoft.ContainerInstance/containerGroups/delete",
+                    "Microsoft.Storage/storageAccounts/delete",
+                    "Microsoft.Insights/Workbooks/Write",
+                    "Microsoft.SecurityInsights/alertRules/write"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
